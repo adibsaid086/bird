@@ -1,0 +1,105 @@
+body {
+  font-family: montserrat;
+  
+}
+.child{
+display: inline-block;
+  width: 300px;
+  height:300px;
+}
+
+.button{
+  text-align: center;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+  font-family: montserrat;
+}
+
+h2 {
+  text-align: center;
+  font-family: montserrat;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+h3, h4{
+  font-weight: normal;
+  font-size: 18px;
+
+}
+
+h5, h6{
+  font-size: 18px;
+  font-weight:normal;
+}
+hr {
+  width: 80%
+}
+.box1 {
+  width: 700px;
+  height: 300px;
+  margin: auto;
+  border: 2px;
+}
+
+.box2 {
+  width: 700px;
+  height: 300px;
+  margin: auto;
+  border: 2px black;
+}
+
+.box3 {
+  width: 700px;
+  height: 300px;
+  margin: auto;
+  border: 2px;
+}
+
+#teach1{
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border-radius: 50%
+}
+
+#teach2 {
+  width: 170px;
+  height: auto;
+  margin: auto;
+  border-radius: 50%
+}
+
+.button {
+  margin-top: 10px;
+  padding: 10px;
+  border: 0;
+  border-radius: 4px;
+  background-color: grey;
+  color: #fff;
+}
+#menu {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: black;
+   }
+
+   #menu li {
+     float: left;
+   }
+
+   #menu li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+   }
+
+   #menu li a:hover {
+     background-color: #111;
+   }

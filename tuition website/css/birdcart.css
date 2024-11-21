@@ -1,0 +1,145 @@
+html{
+  height: 100%;
+}
+.header1 {
+  overflow: hidden;
+  background-color: #f5f5f5;
+  padding: 20px 10px;
+}
+.header1 a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header1 a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header-right {
+  float: right;
+}
+.header-right {
+    float: none;
+  }
+
+body {
+  height: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  justify-items: center;
+  background-color: #f5f5f5;
+}
+
+.tutor {
+  justify-items: center;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+.line-5 {
+  height: 100px;
+  margin-top: 40px;
+  background: linear-gradient(
+    to bottom,
+    transparent 2px,
+    black 2px,
+    black 3px,
+    transparent 3px
+  );
+}
+
+.payment-form-field {
+
+  border: none;
+  border-left: 0.3px solid #f7f0f0;
+  border-right:0.3px solid #f4f1f1;
+  border-top: 0.3px solid #d6d6d6;
+  border-bottom: 0.5px solid #d6d6d6;
+  margin-top: 1px;
+  margin-bottom: 70px;
+  color: white;
+  background-color:#0F71CC;
+  justify-items: center;
+  align-items: center;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 100px 10px 100px;
+
+}
+.contentleft
+{
+  position:inherit;
+  float:left;
+  margin-left: 1px ;
+  width:40%;
+  max-width: 450px;
+  border:3px solid #00CD00;
+  padding:0;
+  font-family:Arial, Times, serif;
+
+}
+.column {
+  float: left;
+  padding: 15px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 30%;
+}
+
+.content {
+  width: 70%;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.line-5 {
+  height: 5px;
+  background: linear-gradient(
+    to bottom,
+    transparent 2px,
+    black 2px,
+    black 3px,
+    transparent 3px
+  );
+}
+.remember-me {
+  border-left: 0.3px solid #d6d6d6;
+  border-right:0.3px solid #d6d6d6;
+  border-top: 0.3px solid #d6d6d6;
+  border-bottom: 0.5px solid #d6d6d6;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  outline: none;
+}
+
+#login-form-submit {
+  width: 50%;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #000000;
+  cursor: pointer;
+  outline: none;
+}
